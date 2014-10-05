@@ -7,7 +7,7 @@ def getMean(values):
     numsum=0
     for index in range(len(values)):
         numsum=numsum+values[index]
-    mean=numsum/len(values)
+    mean=float(numsum)/float(len(values))
     return mean
 
 def HeadTailCommunityDetection(G,finaledgelist):
@@ -26,7 +26,7 @@ def HeadTailCommunityDetection(G,finaledgelist):
             for index in range(len(values)):
                     if values[index] <= mean:
                         edgelist.append(edges[index])
-            if (len(edgelist)/len(edges))>=0.6: #change the head/tail division rule here, here is for tail percentage, so if the rule is 40/60, the value should be assigned 0.6 as in the code. 
+            if  (float(len(edgelist))/float(len(edges)))>=0.6: #change the head/tail division rule here, here is for tail percentage, so if the rule is 40/60, the value should be assigned 0.6 as in the code.
                 for edge in edgelist:
                     finaledgelist.append(edge)
             else:
@@ -37,20 +37,22 @@ def HeadTailCommunityDetection(G,finaledgelist):
 
 def HeadTailInitiator():
     G = nx.Graph()
-    ins = open("MarkNewman\\Club\\club.txt", "r")  #input file path
+    ins = open("sampleNetFile\\Protein\\edge.txt", "r")  #input file path
     for line in ins:
-            words = line.split('\t')
-            G.add_edge(int(words[0]), int(words[1])) 
+            words = line.split(' ')
+            G.add_edge(int(words[0]), int(words[1]))
     ins.close()
     finaledgelist=[]
     start = timeit.default_timer()
     HeadTailCommunityDetection(G,finaledgelist)
     print "done!"
     stop = timeit.default_timer()
+    print "Processing time(in second): "
     print stop - start
-    text_file = open("Output1.txt", "w")    #output file path
+    text_file = open("OutputEdge.txt", "w")    #output file path
     for edge in finaledgelist:
-        text_file.write(str(edge[0])+"\t"+str(edge[1])+"\n")   
-    text_file.close()  
+        text_file.write(str(edge[0])+" "+str(edge[1])+"\n")
+    text_file.close()
 
 HeadTailInitiator()
+
