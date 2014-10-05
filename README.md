@@ -6,7 +6,7 @@ Both the input and output files of the program are related to edges in graph. To
 
 And in case you want to know further info of detected homo-groups, click Network > Create Partition > Components > Weak, set minimum size = 1, then the number of homo-groups and their node members etc. will be obtained. 
 
-Note that the computing capacity of this program is limited to around 30,000 edges.   
+Note that the computing capacity of this program is limited to around 30,000 edges, and it may take couple of minutes or longer for a bigger graph (say > 10,000 edges). 
 
 And please make sure to keep the "networkx" folder and the code file in the same folder and do NOT make space as the last row for input file. 
 
