@@ -1,4 +1,4 @@
-The program (download <a rel="nofollow" target="_blank" href="http://fromto.hig.se/~bjg/HeadTailBreaksCode/HeadTailCommunityDetectionCode.rar"> <i>here</i></a></font></font>) is for obtaining homogeneous communities in complex networks by applying head/tail breaks on edge betweenness given its heavy-tailed distribution. The program is developed based on NetworkX 1.8 and the input and output files follow with Pajek file format (.net). 
+The program (download <a rel="nofollow" target="_blank" href="http://fromto.hig.se/~bjg/HeadTailBreaksCode/HeadTailCommunityDetectionCode.rar"> <i>here</i></a></font></font>) is for obtaining homogeneous communities in complex networks by applying head/tail breaks on edge betweenness given its heavy-tailed distribution. The program is developed based on NetworkX 1.8 and its input and output files follow with Pajek file format (.net). 
 
 <b>How to do:</b>
 
