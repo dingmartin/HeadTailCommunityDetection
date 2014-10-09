@@ -4,7 +4,7 @@ The program (download <a rel="nofollow" target="_blank" href="http://fromto.hig.
 
 Both the input and output files of the program are related to edges in graph. To generate input file, open .net file in txt and copy all edges under line "*edges" and then paste them into a new txt file. Then change the code with the input file location, you can also change the division rule and output file location as the comment indicated. Run the program and then copy the edge data from output file and replace the edges in original net with them (It is better to make a copy of original net file for later comparison purpose). Finally, load the changed .net file in Pajek, click draw network button, then press "ctrl + k", all the homogeneous groups will be shown.
 
-And in case you want to know further info of detected homo-groups, click Network > Create Partition > Components > Weak, set minimum size = 1, then the number of homo-groups and their node members etc. will be obtained. 
+And in case you want to know further info of detected homo-groups, in Pajek click Network > Create Partition > Components > Weak, set minimum size = 1, then the number of homo-groups and their node members etc. will be obtained. 
 
 Note that the computing capacity of this program is limited to around 30,000 edges, and it may take couple of minutes or longer for a bigger graph (say > 10,000 edges). 
 
