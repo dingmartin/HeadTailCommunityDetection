@@ -26,7 +26,7 @@ def HeadTailCommunityDetection(G,finaledgelist):
             for index in range(len(values)):
                     if values[index] <= mean:
                         edgelist.append(edges[index])
-            if  (float(len(edgelist))/float(len(edges)))>=0.6: #change the head/tail division rule here, here is for tail percentage, so if the rule is 40/60, the value should be assigned 0.6 as in the code.
+            if  (float(len(edgelist))/float(len(edges)))<=0.6: #change the head/tail division rule here, here is for tail percentage, so if the rule is 40/60, the value should be assigned 0.6 as in the code.
                 for edge in edgelist:
                     finaledgelist.append(edge)
             else:
