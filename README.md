@@ -7,7 +7,7 @@ Simply put, it is for obtaining homogeneous communities in complex networks by a
 
 <b>How to do:</b>
 
-Both the input and output files of the program are related to edges in graph. To generate input file, open .net file in txt and copy all edges under line "*edges" and then paste them into a new txt file. Then change the code with the input file location, you can also change the division rule and output file location as the comment indicated. Run the program and then copy the edge data from output file and replace the edges in original net with them (It is better to make a copy of original net file for later comparison purpose). Finally, load the changed .net file in Pajek, click draw network button, then press "ctrl + k", all the homogeneous groups will be shown.
+Both the input and output files of the program are related to edges in graph. To generate input file, open .net file in txt and copy all edges under line "*edges" and then paste them into a new txt file. Then change the code with the input file location, you can also change the division rule and output file location as the comment indicated. Run the program and then copy the edge data from output file and replace the edges in original net with them (It is better to make a copy of original net file for later comparison). Finally, load the changed .net file in Pajek, click draw network button, then press "ctrl + k", all the homogeneous groups will show up.
 
 And in case you want to know further info of detected homo-groups, in Pajek click Network > Create Partition > Components > Weak, set minimum size = 1, then the number of homo-groups and their node members etc. will be obtained. 
 
