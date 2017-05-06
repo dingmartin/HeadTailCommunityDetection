@@ -1,4 +1,4 @@
-The program (download <a rel="nofollow" target="_blank" href="http://fromto.hig.se/~bjg/HeadTailBreaksCode/HeadTailCommunityDetectionCode.rar"> <i>here</i></a></font></font>) is developed based on the following paper:
+This program (download <a rel="nofollow" target="_blank" href="http://fromto.hig.se/~bjg/HeadTailBreaksCode/HeadTailCommunityDetectionCode.rar"> <i>here</i></a></font></font>) is developed out of the following paper:
 
 <i>Jiang B. and Ding M. (2015), Defining least community as a homogeneous group in complex networks, Physica A, 428, 154-160, Preprint: <a rel="nofollow" target="_blank" href="http://arxiv.org/ftp/arxiv/papers/1502/1502.00284.pdf">http://arxiv.org/ftp/arxiv/papers/1502/1502.00284.pdf</a>. </i> 
 
