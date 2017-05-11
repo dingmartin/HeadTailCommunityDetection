@@ -2,7 +2,7 @@ This program (download <a rel="nofollow" target="_blank" href="http://fromto.hig
 
 <i>Jiang B. and Ding M. (2015), Defining least community as a homogeneous group in complex networks, Physica A, 428, 154-160, Preprint: <a rel="nofollow" target="_blank" href="http://arxiv.org/ftp/arxiv/papers/1502/1502.00284.pdf">http://arxiv.org/ftp/arxiv/papers/1502/1502.00284.pdf</a>. </i> 
 
-Simply put, it is for obtaining homogeneous communities in complex networks by applying head/tail breaks on edge betweenness given its heavy-tailed distribution. The program is based on NetworkX 1.8 and its input and output files follow with Pajek file format (.net). 
+Simply put, it is for obtaining homogeneous communities in complex networks by applying head/tail breaks on edge betweenness given its heavy-tailed distribution. The program is based on NetworkX 1.8, and its input and output files follow with Pajek file format (.net). 
 
 
 <b>How to do:</b>
