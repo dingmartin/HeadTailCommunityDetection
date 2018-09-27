@@ -1,6 +1,6 @@
 This program (download <a rel="nofollow" target="_blank" href="http://fromto.hig.se/~bjg/HeadTailBreaksCode/HeadTailCommunityDetectionCode.rar"> <i>here</i></a></font></font>) is developed out of the following paper:
 
-<i>Jiang B. and Ding M. (2015), Defining least community as a homogeneous group in complex networks, Physica A, 428, 154-160.
+<i>Jiang B. and Ding M. (2015), Defining least community as a homogeneous group in complex networks, Physica A, 428, 154-160.</i>
 
 Simply put, it is for obtaining homogeneous communities in complex networks by applying head/tail breaks on edge betweenness given its heavy-tailed distribution. The program is based on NetworkX 1.8, and its input and output files follow with Pajek file format (.net). 
 
