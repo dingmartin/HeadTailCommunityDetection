@@ -14,6 +14,4 @@ Simply put, it is for obtaining homogeneous communities in complex networks by a
 
 Note that the computing capacity of this program is limited to around 30,000 edges, and it may take couple of minutes or longer for a bigger graph (say > 10,000 edges). 
 
-Please note that do NOT make space as the last row in the input file. 
-
 
